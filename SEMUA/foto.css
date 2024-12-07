@@ -1,0 +1,626 @@
+body {
+    margin: 0;
+    background-color: #8de5db;
+}
+
+.atas {
+    display: grid;
+    background-color: #117c6f;
+    grid-template-columns: auto 220px 300px 220px auto;
+    grid-template-rows: 70px;
+    grid-template-areas: 
+        'atas1 atas2 atas3 atas4 atas5';
+    position: sticky;
+    top: 0;
+}
+
+.atas .atas1 {
+    grid-area: atas1;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.atas .atas1 a {
+    text-decoration: none;
+    color: #e3f2fd;
+}
+
+.atas .atas1 a:hover {
+    color: #12ffe3;
+    text-decoration: underline;
+}
+
+
+.atas .atas2 {
+    grid-area: atas2;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.atas .atas2 details {
+    background-color: #117c6f;
+    position: relative;
+}
+
+.atas .atas2 summary {
+    color: #e3f2fd;
+}
+
+.atas .atas2 a {
+    text-decoration: none;
+    color: #e3f2fd;}
+
+.atas .atas2 a:hover {
+    color: #12ffe3;
+    text-decoration: underline;
+}
+
+.atas .atas3 {
+    grid-area: atas3;
+    text-align: center;
+    margin-top: 10px;
+    color: #e3f2fd;
+}
+
+.atas .atas3 div:first-child {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.atas .atas3 div:last-child {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.atas .atas4 {
+    grid-area: atas4;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.atas .atas4 a {
+    text-decoration: none;
+    color: #e3f2fd;
+}
+
+.atas .atas4 a:hover {
+    color: #12ffe3;
+    text-decoration: underline;
+}
+
+.atas .atas5 {
+    grid-area: atas5;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.atas .atas5 a{
+    color: #e3f2fd;
+    text-decoration: none;
+}
+
+.atas .atas5 a:hover {
+    color: #12ffe3;
+    text-decoration: underline;
+}
+
+.bawah .B-atas1 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: auto 295px 295px auto;
+    grid-template-rows: 50px auto auto auto auto;
+    gap: 10px;
+    grid-template-areas: 
+        'teks teks teks teks'
+        'foto1 foto2 foto3 foto4'
+        'foto5 foto6 foto7 foto8'
+        'foto9 foto10 foto11 foto12'
+        'foto13 foto14 foto15 foto16';
+}
+
+.bawah .B-atas1 .text {
+    grid-area: teks;
+    background-color: #289c8e;
+    border-radius: 10px;
+    font-family: sans-serif, Arial, Helvetica;
+    letter-spacing: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.bawah .B-atas1 .foto1 {
+    grid-area: foto1;
+}
+
+.bawah .B-atas1 img{
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+
+.bawah .B-atas1 .foto2 {
+    grid-area: foto2;
+}
+
+.bawah .B-atas1 .foto3 {
+    grid-area: foto3;
+}
+
+.bawah .B-atas1 .foto4 {
+    grid-area: foto4;
+}
+
+.bawah .B-atas1 .foto5 {
+    grid-area: foto5;
+}
+
+.bawah .B-atas1 .foto6 {
+    grid-area: foto6;
+}
+
+.bawah .B-atas1 .foto7 {
+    grid-area: foto7;
+}
+
+.bawah .B-atas1 .foto8 {
+    grid-area: foto8;
+}
+
+.bawah .B-atas1 .foto9 {
+    grid-area: foto9;
+}
+
+.bawah .B-atas1 .foto10 {
+    grid-area: foto10;
+}
+
+.bawah .B-atas1 .foto11 {
+    grid-area: foto11;
+}
+
+.bawah .B-atas1 .foto12 {
+    grid-area: foto12;
+}
+
+.bawah .B-atas1 .foto13 {
+    grid-area: foto13;
+}
+
+.bawah .B-atas1 .foto14 {
+    grid-area: foto14;
+}
+
+.bawah .B-atas1 .foto15 {
+    grid-area: foto15;
+}
+
+.bawah .B-atas1 .foto16 {
+    grid-area: foto16;
+}
+
+.bawah .B-atas1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.bawah .B-atas2 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: auto 395px auto;
+    grid-template-rows: 50px auto auto;
+    gap: 15px;
+    grid-template-areas:
+    'text text text'
+    'poto1 poto2 poto3'
+    'poto4 poto5 poto6';
+}
+
+.bawah .B-atas2 .text1 {
+    grid-area: text;
+    background-color: #289c8e;
+    border-radius: 10px;
+    font-family: sans-serif, Arial, Helvetica;
+    letter-spacing: 2px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.bawah .B-atas2 .kubur1 {
+    grid-area: poto1;
+}
+
+.bawah .B-atas2 .kubur2 {
+    grid-area: poto2;
+}
+
+.bawah .B-atas2 .kubur3 {
+    grid-area: poto3;
+}
+
+.bawah .B-atas2 .kubur4 {
+    grid-area: poto4;
+}
+
+.bawah .B-atas2 .kubur5 {
+    grid-area: poto5;
+}
+
+.bawah .B-atas2 .kubur6 {
+    grid-area: poto6;
+}
+
+.bawah .B-atas2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.bawah .B-atas2 img {
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+}
+
+@media screen and (max-width: 1240px) {
+    .bawah .B-atas1 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: auto 240px 240px auto;
+        grid-template-rows: 50px auto auto auto auto;
+        gap: 10px;
+        grid-template-areas: 
+            'teks teks teks teks'
+            'foto1 foto2 foto3 foto4'
+            'foto5 foto6 foto7 foto8'
+            'foto9 foto10 foto11 foto12'
+            'foto13 foto14 foto15 foto16';
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .atas {
+        display: grid;
+        background-color: #117c6f;
+        grid-template-columns: auto 180px 230px 180px auto;
+        grid-template-rows: 70px;
+        grid-template-areas: 
+            'atas1 atas2 atas3 atas4 atas5';
+        position: sticky;
+        top: 0;
+    }
+    
+    .bawah .B-atas1 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px auto auto auto auto auto;
+        gap: 10px;
+        grid-template-areas: 
+            'teks teks'
+            'foto1 foto2' 
+            'foto3 foto4'
+            'foto5 foto6' 
+            'foto7 foto8'
+            'foto9 foto10' 
+            'foto11 foto12'
+            'foto13 foto14' 
+            'foto15 foto16';
+    }
+
+    .bawah .B-atas1 .text {
+        grid-area: teks;
+        position: static;
+    }
+
+    .bawah .B-atas1 .foto1 {
+        grid-area: foto1;
+    }
+    
+    .bawah .B-atas1 .foto2 {
+        grid-area: foto2;
+    }
+    
+    .bawah .B-atas1 .foto3 {
+        grid-area: foto3;
+    }
+    
+    .bawah .B-atas1 .foto4 {
+        grid-area: foto4;
+    }
+    
+    .bawah .B-atas1 .foto5 {
+        grid-area: foto5;
+    }
+    
+    .bawah .B-atas1 .foto6 {
+        grid-area: foto6;
+    }
+    
+    .bawah .B-atas1 .foto7 {
+        grid-area: foto7;
+    }
+    
+    .bawah .B-atas1 .foto8 {
+        grid-area: foto8;
+    }
+    
+    .bawah .B-atas1 .foto9 {
+        grid-area: foto9;
+    }
+    
+    .bawah .B-atas1 .foto10 {
+        grid-area: foto10;
+    }
+    
+    .bawah .B-atas1 .foto11 {
+        grid-area: foto11;
+    }
+    
+    .bawah .B-atas1 .foto12 {
+        grid-area: foto12;
+    }
+    
+    .bawah .B-atas1 .foto13 {
+        grid-area: foto13;
+    }
+    
+    .bawah .B-atas1 .foto14 {
+        grid-area: foto14;
+    }
+    
+    .bawah .B-atas1 .foto15 {
+        grid-area: foto15;
+    }
+    
+    .bawah .B-atas1 .foto16 {
+        grid-area: foto16;
+    }
+
+    .bawah .B-atas2 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px auto auto;
+        gap: 15px;
+        grid-template-areas: 
+        'text text'
+        'poto1 poto2' 
+        'poto3 poto4' 
+        'poto5 poto6';
+    }
+    
+    .bawah .B-atas2 .kubur1 {
+        grid-area: poto1;
+    }
+    
+    .bawah .B-atas2 .kubur2 {
+        grid-area: poto2;
+    }
+    
+    .bawah .B-atas2 .kubur3 {
+        grid-area: poto3;
+    }
+    
+    .bawah .B-atas2 .kubur4 {
+        grid-area: poto4;
+    }
+    
+    .bawah .B-atas2 .kubur5 {
+        grid-area: poto5;
+    }
+    
+    .bawah .B-atas2 .kubur6 {
+        grid-area: poto6;
+    }
+}
+
+
+@media screen and (max-width: 620px) {
+    .atas {
+        display: grid;
+        grid-template-columns: auto 90px 90px auto;
+        grid-template-rows: 60px;
+        grid-template-areas: 
+            'atas atas atas atas'
+            'bawah11 bawah12 bawah13 bawah14';
+        position: sticky;
+        top: 0;
+    }
+
+    .atas .atas1 {
+        grid-area: bawah11;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .atas .atas2 {
+        grid-area: bawah12;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .atas .atas2 details {
+        position: absolute;
+    }
+    
+    .atas .atas3 {
+        grid-area: atas;
+        text-align: center;
+        margin-top: 10px;
+        color: #e3f2fd;
+    }
+    
+    .atas .atas4 {
+        grid-area: bawah13;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .atas .atas5 {
+        grid-area: bawah14;
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .bawah .B-atas1 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px auto auto auto auto auto;
+        gap: 10px;
+        grid-template-areas: 
+            'teks teks'
+            'foto1 foto2' 
+            'foto3 foto4'
+            'foto5 foto6' 
+            'foto7 foto8'
+            'foto9 foto10' 
+            'foto11 foto12'
+            'foto13 foto14' 
+            'foto15 foto16';
+    }
+
+    .bawah .B-atas1 .text {
+        grid-area: teks;
+        position: static;
+    }
+
+    .bawah .B-atas1 .foto1 {
+        grid-area: foto1;
+    }
+    
+    .bawah .B-atas1 .foto2 {
+        grid-area: foto2;
+    }
+    
+    .bawah .B-atas1 .foto3 {
+        grid-area: foto3;
+    }
+    
+    .bawah .B-atas1 .foto4 {
+        grid-area: foto4;
+    }
+    
+    .bawah .B-atas1 .foto5 {
+        grid-area: foto5;
+    }
+    
+    .bawah .B-atas1 .foto6 {
+        grid-area: foto6;
+    }
+    
+    .bawah .B-atas1 .foto7 {
+        grid-area: foto7;
+    }
+    
+    .bawah .B-atas1 .foto8 {
+        grid-area: foto8;
+    }
+    
+    .bawah .B-atas1 .foto9 {
+        grid-area: foto9;
+    }
+    
+    .bawah .B-atas1 .foto10 {
+        grid-area: foto10;
+    }
+    
+    .bawah .B-atas1 .foto11 {
+        grid-area: foto11;
+    }
+    
+    .bawah .B-atas1 .foto12 {
+        grid-area: foto12;
+    }
+    
+    .bawah .B-atas1 .foto13 {
+        grid-area: foto13;
+    }
+    
+    .bawah .B-atas1 .foto14 {
+        grid-area: foto14;
+    }
+    
+    .bawah .B-atas1 .foto15 {
+        grid-area: foto15;
+    }
+    
+    .bawah .B-atas1 .foto16 {
+        grid-area: foto16;
+    }
+
+    .bawah .B-atas2 {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px auto auto;
+        gap: 15px;
+        grid-template-areas: 
+        'text text'
+        'poto1 poto2' 
+        'poto3 poto4' 
+        'poto5 poto6';
+    }
+    
+    .bawah .B-atas2 .text1 {
+        grid-area: text;
+        position: static;
+    }
+
+    .bawah .B-atas2 .kubur1 {
+        grid-area: poto1;
+    }
+    
+    .bawah .B-atas2 .kubur2 {
+        grid-area: poto2;
+    }
+    
+    .bawah .B-atas2 .kubur3 {
+        grid-area: poto3;
+    }
+    
+    .bawah .B-atas2 .kubur4 {
+        grid-area: poto4;
+    }
+    
+    .bawah .B-atas2 .kubur5 {
+        grid-area: poto5;
+    }
+    
+    .bawah .B-atas2 .kubur6 {
+        grid-area: poto6;
+    }
+    
+}
